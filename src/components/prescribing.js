@@ -8,8 +8,9 @@ const Prescribing = () => {
 
   /* Initial List*/
   const initList = data.filter((rx)=> {
-  if(rx.Pharmacistchoice ==='*')
-  return (rx)
+  if(rx.Pharmacistchoice ==='*'){
+  return (rx)}
+  return null
   })
   const [drugList,setDrugList] =useState([])
 
