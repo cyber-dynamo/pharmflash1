@@ -6,8 +6,8 @@ import Aboutme from '../structures/aboutme';
 
 const About = () => {
     return (
-      <div>
-      <Container className='background'>
+      <div className='background'>
+      <Container >
       <Row>
         <Col sm={4} className="pacoprofile">
           <img src="paco.jpg" alt="paco" className="pacoimg" />

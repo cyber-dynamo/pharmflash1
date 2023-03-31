@@ -18,11 +18,8 @@ const Prescribing = () => {
   },[]);  
 /* new list */
 const updateList = (Condition)=>{
-  const modList = data.filter((rx)=>{
-    if (rx.Condition ===Condition)
-    return setDrugList(modList)
-  })
-
+  const modList = Condition ? data.filter((rx)=> rx.Condition === Condition) : [];
+  setDrugList(modList);
 }
     return (
    
@@ -44,7 +41,7 @@ const updateList = (Condition)=>{
     </Card>
     </div>
       )})}
-      <Button variant="danger" onClick={() => window.open("https://www2.gov.bc.ca/gov/content/health/health-drug-coverage/pharmacare-for-bc-residents/what-we-cover/prescription-contraceptives", '_blank')}>
+      <Button variant="danger" onClick={() => window.open("https://www2.gov.bc.ca/gov/content/health/practitioner-professional-resources/pharmacare/contraceptives", '_blank')}>
             Birth Control
         </Button>
     </div>

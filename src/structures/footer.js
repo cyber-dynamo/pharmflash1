@@ -16,7 +16,7 @@ function Footer() {
       
       <Row >
         <Col className='columnContent'>
-        <Button onClick={() => window.open("https://www.facebook.com/paco.v.chan/", '_blank')}>
+        <Button className='fblogo' onClick={() => window.open("https://www.facebook.com/paco.v.chan/", '_blank')}>
           <FaFacebookSquare/>
           </Button>
           </Col>

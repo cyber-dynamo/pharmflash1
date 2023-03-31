@@ -10,7 +10,7 @@ import {FaClinicMedical} from 'react-icons/fa';
 function Layout() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" >
       <Container>
         <Navbar.Brand as={Link} to="/"><FaClinicMedical/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -40,17 +40,3 @@ function Layout() {
 
 export default Layout;
 
-/*  <Container fluid>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Navbar.Brand as={Link} to="/" ><FaClinicMedical/></Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/" >Home</Nav.Link>
-            <Nav.Link as={Link} to="about" >About</Nav.Link>
-            <Nav.Link as={Link} to="resources" >Resources</Nav.Link>
-          </Nav>  
-          <Navbar.Text>
-            Park Pacific Pharmacy
-          </Navbar.Text>
-          </Navbar.Collapse>
-        </Container>*/
