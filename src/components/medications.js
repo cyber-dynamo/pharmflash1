@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
 import data from '../data/mrsdata';
 
 const Medications = () => {
 
-/* initial list */
-  const [medList,setMedList]= useState(data)
-
     return (
     <Container>
        <div className='row'>
-    {medList.map((val)=>{
+    {data.map((val)=>{
       return(
         <div className='col-md-4' key ={val.id}>
       <Accordion >

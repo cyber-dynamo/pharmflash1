@@ -6,13 +6,10 @@ import data from '../data/drugs';
 
 const Prescribing = () => {
 
-/* All Drug list */
-  const [allDrugList,setallDrugList]= useState(data)
-
   /* Initial List*/
   const initList = data.filter((rx)=> {
   if(rx.Pharmacistchoice ==='*')
-  return rx
+  return (rx)
   })
   const [drugList,setDrugList] =useState([])
 
@@ -31,7 +28,7 @@ const updateList = (Condition)=>{
    
       <Container>
          <div className='row'>
-    {drugList.map((val)=>{
+    {drugList && drugList.map((val)=>{
       return(
         <div className='col-md-4' key={val.id} >
         <Card style={{ width: '20rem' }} >

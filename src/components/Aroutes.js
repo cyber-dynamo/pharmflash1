@@ -10,6 +10,7 @@ import Medications from './medications';
 import COVID from './COVID';
 import Adaptation from './adaptation';
 
+
 export default function Router() {
   return (
       <Routes >
