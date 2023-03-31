@@ -26,7 +26,7 @@ const updateList = (Condition)=>{
    
       <Container>
          <div className='row'>
-    {drugList && drugList.map((val)=>{
+    { drugList.map((val)=>{
       return(
         <div className='col-md-4' key={val.id} >
         <Card style={{ width: '20rem' }} >
