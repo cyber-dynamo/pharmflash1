@@ -1,7 +1,7 @@
 {
   "main.css": "/pharmflash1/static/css/main.0bfe718e.chunk.css",
-  "main.js": "/pharmflash1/static/js/main.d83b4a19.chunk.js",
-  "main.js.map": "/pharmflash1/static/js/main.d83b4a19.chunk.js.map",
+  "main.js": "/pharmflash1/static/js/main.9c050f4a.chunk.js",
+  "main.js.map": "/pharmflash1/static/js/main.9c050f4a.chunk.js.map",
   "static/js/1.82f3f0cc.chunk.js": "/pharmflash1/static/js/1.82f3f0cc.chunk.js",
   "static/js/1.82f3f0cc.chunk.js.map": "/pharmflash1/static/js/1.82f3f0cc.chunk.js.map",
   "static/css/2.af75448c.chunk.css": "/pharmflash1/static/css/2.af75448c.chunk.css",
@@ -9,9 +9,9 @@
   "static/js/2.518f55b7.chunk.js.map": "/pharmflash1/static/js/2.518f55b7.chunk.js.map",
   "runtime~main.js": "/pharmflash1/static/js/runtime~main.3e63f08d.js",
   "runtime~main.js.map": "/pharmflash1/static/js/runtime~main.3e63f08d.js.map",
-  "static/css/2.af75448c.chunk.css.map": "/pharmflash1/static/css/2.af75448c.chunk.css.map",
   "static/css/main.0bfe718e.chunk.css.map": "/pharmflash1/static/css/main.0bfe718e.chunk.css.map",
+  "static/css/2.af75448c.chunk.css.map": "/pharmflash1/static/css/2.af75448c.chunk.css.map",
   "index.html": "/pharmflash1/index.html",
-  "precache-manifest.b8b59ec64e219554c6c12291ff3a0071.js": "/pharmflash1/precache-manifest.b8b59ec64e219554c6c12291ff3a0071.js",
+  "precache-manifest.e6a3e77a45fd7f906742174beb101163.js": "/pharmflash1/precache-manifest.e6a3e77a45fd7f906742174beb101163.js",
   "service-worker.js": "/pharmflash1/service-worker.js"
 }
