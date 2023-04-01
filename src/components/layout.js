@@ -12,11 +12,11 @@ function Layout() {
     <div>
       <Navbar collapseOnSelect expand="lg" >
       <Container>
-        <Navbar.Brand as={Link} to="/home"><FaClinicMedical/></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><FaClinicMedical/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="about" >About</Nav.Link>
             <Nav.Link as={Link} to="resources" >Resources</Nav.Link>
           </Nav>
