@@ -5,7 +5,7 @@ import Aroutes from './components/Aroutes';
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
      <Aroutes/> 
     </BrowserRouter>
   );
