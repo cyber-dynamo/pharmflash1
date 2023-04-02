@@ -1,6 +1,5 @@
 import React from 'react';
 import {Routes, Route } from "react-router-dom";
-import Layout from "./layout";
 import Home from "./home";
 import About from "./about";
 import Resources from "./resources.js";
@@ -14,11 +13,10 @@ import Adaptation from './adaptation';
 export default function Router() {
   return (
       <Routes >
-        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
 
-          <Route path="resources" element={<Resources/>}> 
+          <Route path="/resources" element={<Resources/>}> 
           <Route path="prescribing" element={<Prescribing />} />
           <Route path="medications" element={<Medications />} />
           <Route path="COVID" element={<COVID />} />
@@ -26,8 +24,8 @@ export default function Router() {
 
           </Route>
           
-          <Route path="*" element={<NoPage />} />
-        </Route>
+          <Route path="/*" element={<NoPage />} />
+        
       </Routes>
     
   );

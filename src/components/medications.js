@@ -16,8 +16,7 @@ const Medications = () => {
         <Accordion.Header>{val.drug}</Accordion.Header>
         <Accordion.Body>
           <h5>{val.condition}</h5>
-          <p>{val.engsig}</p>
-          <p>{val.chisig}</p>
+          <p>{val.sig}</p>
         </Accordion.Body>
       </Accordion.Item>
       </Accordion>

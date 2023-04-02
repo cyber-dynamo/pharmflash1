@@ -1,9 +1,8 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Footer from '../structures/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FaClinicMedical} from 'react-icons/fa';
 
@@ -31,8 +30,7 @@ function Layout() {
         </Navbar.Collapse>
       </Container>
       </Navbar>
-      <Outlet />
-      <Footer className='footer'/>
+    
      
     </div>
   );
