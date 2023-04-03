@@ -8,9 +8,11 @@ import Layout from './components/layout';
 function App() {
   return (
     <HashRouter >
+      <div className='pagelayout'>
       <Layout/>
      <Aroutes/> 
      <Footer/>
+     </div>
     </HashRouter>
   );
 }

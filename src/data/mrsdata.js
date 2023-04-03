@@ -115,5 +115,17 @@ export default
       "drug": "Glaucoma Drops",
       "condition": "Glaucoma 青光眼",
       "sig": "Monitor for eyelash growth and pupil color changes. 眼睫毛增長，眼球變色",
+    },
+    {
+      "id": 20,
+      "drug": "Tamsulosin",
+      "condition": "Prostate 前列腺",
+      "sig": "Monitor for dizziness and weakness. 頭暈，無力",
+    },
+    {
+      "id": 21,
+      "drug": "Alendronate",
+      "condition": "Bone health 骨質疏鬆",
+      "sig": "Monitor for nausea, stomach pain, bloating. Take on an empty stomach with a full glass of water. Sit up for 30 minutes after. 作嘔，肚痛， 胃氣脹. 空肚用， 連一杯水。坐起半小時",
     }
   ]
