@@ -9,9 +9,11 @@ function App() {
   return (
     <HashRouter >
       <div className='pagelayout'>
+        <div className='contentwrap'>
       <Layout/>
      <Aroutes/> 
      <Footer/>
+     </div>
      </div>
     </HashRouter>
   );

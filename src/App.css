@@ -7,6 +7,9 @@
   flex-direction: column;
   min-height: 100vh;
 }
+.contentwrap{
+  flex:1;
+}
 
   /* home */
   .carousel {
@@ -31,7 +34,11 @@
     height: 78vh;
   }
   /* About*/
+.about{
+  min-height:100vh;
+  background-image: linear-gradient(rgb(144, 242, 247), rgb(231, 237, 238));
 
+}
   .pacoprofile{
     display:column;
     justify-content: space-between;
@@ -63,29 +70,24 @@
 
   /* Resources*/
   .resourcesQuote{
-    height:100vh;
+    min-height:100vh;
     max-width: 70%;
     font-size: 40px;
     text-shadow:1px 1px rgb(144, 242, 247);
     text-align: center;
     margin-top: 10%;
     margin-left: 15%;
-    margin-bottom: 3%;
     font-family: 'Dancing Script', cursive;
   }
 
   /* footer */
 
   .footer{
-    position:fixed;
-    left: 0;
+    position:relative;
     bottom: 0;
     width:100%;
-    margin-top: auto;
-    flex-shrink: 0;
-    height:100px;
+    padding-top: 3em;
     background-color: rgb(255, 255, 255);
-    max-height:fit-content;
   }
   .columnContent{
     text-align: center;

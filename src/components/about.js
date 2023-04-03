@@ -6,7 +6,7 @@ import Aboutme from '../structures/aboutme';
 
 const About = () => {
     return (
-      <div className='background'>
+      <div className='about'>
       <Container >
       <Row>
         <Col sm={4} className="pacoprofile">

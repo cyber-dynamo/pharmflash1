@@ -12,7 +12,7 @@ import Adaptation from './adaptation';
 
 export default function Router() {
   return (
-    <div style={{flexGrow:1}}>
+
       <Routes >
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,6 +28,6 @@ export default function Router() {
           <Route path="/*" element={<NoPage />} />
         
       </Routes>
-      </div>
+
   );
 }
