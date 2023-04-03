@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "756e197cc18431817938",
-    "url": "/pharmflash1/static/css/main.31438466.chunk.css"
+    "revision": "a6ce5f8da777575a6175",
+    "url": "/pharmflash1/static/css/main.d85026a3.chunk.css"
   },
   {
-    "revision": "756e197cc18431817938",
-    "url": "/pharmflash1/static/js/main.756e197c.chunk.js"
+    "revision": "a6ce5f8da777575a6175",
+    "url": "/pharmflash1/static/js/main.a6ce5f8d.chunk.js"
   },
   {
     "revision": "82f3f0cc799277e00c27",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/pharmflash1/static/js/runtime~main.3e63f08d.js"
   },
   {
-    "revision": "b5bd26cbc138307ffd083ef80fd674f5",
+    "revision": "1b6776628640a6da6ae5f9947b2c4539",
     "url": "/pharmflash1/index.html"
   }
 ];
