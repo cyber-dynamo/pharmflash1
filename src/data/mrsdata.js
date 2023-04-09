@@ -100,13 +100,13 @@ export default
     },
     {
       "id": 17,
-      "drug": "Corticosteroid cream or ointment",
+      "drug": "Topical Corticosteroid",
       "condition": "Rash 濕疹皮炎",
       "sig": "Monitor for burning, itching, redness and dry skin. Long term usage can result in bruising and thinning of the skin. 紅, 痕癢, 皮膚乾燥, 長期用會導致皮膚瘀傷或變薄",
     },
     {
       "id": 18,
-      "drug": "PPI",
+      "drug": "Proton Pump Inhibitors",
       "condition": "Stomach upset 胃",
       "sig": "Monitor for indigestion. Eat less but more frequent. 消化不良，宜少食多餐",
     },
@@ -118,14 +118,32 @@ export default
     },
     {
       "id": 20,
-      "drug": "Tamsulosin",
+      "drug": "Prostate",
       "condition": "Prostate 前列腺",
-      "sig": "Monitor for dizziness and weakness. 頭暈，無力",
+      "sig": "Monitor for dizziness and weakness. Best to be taken at night time. 頭暈，無力. 宜晚上用",
     },
     {
       "id": 21,
       "drug": "Alendronate",
       "condition": "Bone health 骨質疏鬆",
-      "sig": "Monitor for nausea, stomach pain, bloating. Take on an empty stomach with a full glass of water. Sit up for 30 minutes after. 作嘔，肚痛， 胃氣脹. 空肚用， 連一杯水。坐起半小時",
+      "sig": "Monitor for nausea, stomach pain, bloating. Take on an empty stomach with a full glass of water. Sit up for 30 minutes after. 作嘔，肚痛， 胃氣脹. 空肚連一杯水用, 用後坐起半小時",
+    },
+    {
+      "id": 22,
+      "drug": "Synthroid",
+      "condition": "Thyroid 甲狀腺",
+      "sig": "Monitor for symptoms of hyper or hypo thyroidism such as anxiety, hand tremor, tiredness, weight changes, weakness. 焦慮,手震,疲勞, 體重變化",
+    },
+    {
+      "id": 23,
+      "drug": "Flovent",
+      "condition": "氣管咳嗽",
+      "sig": "Monitor for throat irritations,hoarsenss, rinse mouth after use to avoid oral thrush. 聲沙, 用後漱口，以免真菌感染",
+    },
+    {
+      "id": 24,
+      "drug": "Methotrexate",
+      "condition": "Immunosuppresant 減低免疫能力",
+      "sig": "Monitor for headache, decreased appetite, hair loss. Must coadminister with folic acid.頭痛,無胃口,掉頭髮 ",
     }
   ]

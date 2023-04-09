@@ -32,6 +32,11 @@ const Aboutme = () => {
         improve patient outcomes, share knowledge and provide guidance to his fellow pharmacists. 
         Cheers! 
       </p>
+      <br/>
+      <h5>Favourite quotes:</h5>
+      <p>Medicine is not a science, but an art; it does not consist of compounding pills and plasters, but of principles.</p>
+      <br/>
+      <p>If debugging is the process of removing software bugs, then programming must be the process of putting them in."</p>
     </div>
   );
 };

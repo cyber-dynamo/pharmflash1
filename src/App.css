@@ -31,7 +31,7 @@
   /* Home */
   .home{
     background-image: linear-gradient(rgb(144, 242, 247), rgb(231, 237, 238));
-    height: 78vh;
+    min-height: 100vh;
   }
   /* About*/
 .about{
